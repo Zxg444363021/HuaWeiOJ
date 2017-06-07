@@ -12,7 +12,7 @@ import java.util.*;
 public class Junior0606 {
 
     public static void main(String[] args) {
-        fun9();
+
     }
     /**
      * 反转字符串
@@ -208,23 +208,5 @@ public class Junior0606 {
         }
     }
 
-    /**
-     * 进制转换
-     */
-    public static void fun9(){
-        Scanner scanner=new Scanner(System.in);
-        while(scanner.hasNext()) {
-            String num=scanner.nextLine();
-            if(num.toLowerCase().startsWith("ox")){
-                char[] letters=num.toLowerCase().substring(2,num.length()).toCharArray();
-                int sum=0;
-                for(int i=letters.length-1;i>=0;i--){
 
-                }
-            }else{
-
-            }
-            System.out.println(num);
-        }
-    }
 }
