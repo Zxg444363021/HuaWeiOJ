@@ -54,21 +54,6 @@ public class Junior0607 {
         }
     }
 
-    public static void fun3(){
-        Scanner scanner=new Scanner(System.in);
-        List<Long> list=new ArrayList<>();
-        long z=2;
-        while(scanner.hasNext()) {
-            long number=scanner.nextLong();
-            while(number%z==0){
-                list.add(z);
-                for(int i=2;i<z/2;i++){
-                    if((z+1)/i==0){
-                        break;
-                    }
-                }
-            }
-        }
-    }
+
 }
 
